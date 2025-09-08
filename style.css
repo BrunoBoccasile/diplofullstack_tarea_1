@@ -1,0 +1,27 @@
+:root {
+    --color-principal: #DDC8C4;
+    --color-secundario: #13070C;
+    --fuente-base: "Arial", sans-serif;
+}
+
+body {
+    font-family: var(--fuente-base);
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+nav ul li a:hover {
+    color: #6B4D57;
+    cursor: pointer;
+}
+
+#imagen {
+    max-width: 300px;
+    border-radius: 6%;
+}
+
+.boton-submit:hover {
+    border-radius: 5px;
+    background-color: #6B4D57;
+    cursor: pointer;
+}

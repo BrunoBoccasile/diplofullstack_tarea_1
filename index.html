@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Antes de React</h1>
+        <p>El objetivo de esta tarea es crear una página <a href="https://www.w3schools.com/html/">HTML</a> con
+            estructura semántica correcta y estilos básicos
+            <a href="https://www.w3schools.com/css/">CSS</a>, aplicando etiquetas, selectores, variables y buenas
+            prácticas.
+        </p>
+        <h3>Navegación</h3>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">HTML</a>
+                </li>
+                <li>
+                    <a href="#css">CSS</a>
+                </li>
+                <li>
+                    <a href="#javascript">JavaScript</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <article>
+            <h2 id="html">HTML</h2>
+            <p>
+                El <strong>HTML</strong> (HyperText Markup Language) es el lenguaje de marcado que se usa para
+                estructurar el contenido de una página web. Define elementos como títulos, párrafos, listas, imágenes,
+                formularios y enlaces, formando la base de cualquier sitio.
+            </p>
+            <h2 id="css">CSS</h2>
+            <p>
+                El <strong>CSS</strong> (Cascading Style Sheets) se encarga de dar estilo y diseño al HTML. Permite
+                definir colores, tipografías, márgenes, posiciones y adaptabilidad, separando la estructura del
+                contenido de la presentación visual.
+            </p>
+            <h2 id="javascript">JavaScript</h2>
+            <p>
+                <strong>JavaScript</strong> es el lenguaje de programación que aporta interactividad y dinamismo a las
+                páginas web. Con él se pueden validar formularios, crear animaciones, actualizar datos sin recargar la
+                página y desarrollar aplicaciones completas en el navegador.
+            </p>
+            <img id="imagen" src="https://www.digitalmex.mx/media/k2/items/cache/fe1e4f64f52fa50496116ff712999145_M.jpg"
+                alt="Carita feliz">
+            <ol>
+                <li>HTML - Estructura</li>
+                <li>CSS - Estilos</li>
+                <li>JavaScript - Funcionalidad</li>
+            </ol>
+
+            <form>
+                <label for="input-nombre">Nombre: </label>
+                <input name="input-nombre" id="input-nombre" type="text" placeholder="Fulano">
+                <br>
+                <label for="input-apellido">Apellido: </label>
+                <input name="input-apellido" id="input-apellido" type="text" placeholder="ejemplo@gmail.com">
+                <br>
+                <label for="select-opciones">¿Qué preferís?</label>
+                <select name="select-opciones" id="select-opciones">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                </select>
+                <br>
+                <input class="boton-submit" type="submit">
+            </form>
+        </article>
+    </main>
+    <footer>
+        <small>Bruno Boccasile - 2025</small>
+    </footer>
+</body>
+
+</html>
